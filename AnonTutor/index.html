@@ -3,11 +3,12 @@
 <head>
     <title>AnonTutor</title>
 
-    <link rel="stylesheet" type="text/css" href="textstyle.css">
+    <link rel="stylesheet" type="text/css" href="textstyleindex.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
     <h1 class="centered-text header">Welcome to AnonTutor!</h1>
@@ -16,16 +17,21 @@
     </p>
     <br>
     <p class="tabbed paragraph">Are you a student or a tutor?</p>
-    <select class="tabbed paragraph"> 
-    <option>Student</option>
-    <option>Tutor</option> 
+    <select class="tabbed paragraph" id="Occupation"> 
+    <option value="0">Student</option>
+    <option value="1">Tutor</option> 
     </select>
 
     <br>
     <br>
     <hr>
     <br>
-    <button class="tabbed paragraph">Submit</button>
+    <a>
+    <button class="tabbed paragraph" onclick=redirect()>
+        Submit
+    </button>
+    </a>
+    
 
 
 </body>

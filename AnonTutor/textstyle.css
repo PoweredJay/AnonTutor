@@ -24,7 +24,7 @@ body {
 color:black;
 font-size:40px;
 font-family: 'Roboto', sans-serif;
- }
+}
 
  .login {
   color:block;
@@ -44,6 +44,7 @@ font-family: 'Roboto', sans-serif;
   background: #808080;
   color: #fff;
   cursor: pointer;
+}
 
 #submit{
   padding: 12px;
