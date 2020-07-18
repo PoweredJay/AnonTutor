@@ -1,0 +1,15 @@
+body {
+    background-color: #AB40FF;
+  }
+  
+  p {
+    color: black;
+    
+  }
+  .centered-text {
+      text-align: center;
+  }
+
+  .tabbed {
+    margin-left: 40px;
+  }
